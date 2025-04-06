@@ -1,0 +1,86 @@
+[
+    {
+        "id": 41,
+        "name": "John",
+        "surname": "Doe",
+        "email": "john.doe@example.com",
+        "projects": [
+            {
+                "id": 45,
+                "name": "Project 3",
+                "description": "This is the third project",
+                "tasks": [
+                    {
+                        "id": 49,
+                        "name": "Task 3",
+                        "description": "This is the third task",
+                        "priority": 1,
+                        "status": 1,
+                        "_type": "DocTask",
+                        "document": "Markdown"
+                    }
+                ],
+                "deadline": "2024-10-31"
+            },
+            {
+                "id": 43,
+                "name": "Project 1",
+                "description": "This is the first project",
+                "tasks": [
+                    {
+                        "id": 47,
+                        "name": "Task 1",
+                        "description": "This is the first task",
+                        "priority": 2,
+                        "status": 1,
+                        "_type": "DevTask",
+                        "language": "Python"
+                    }
+                ],
+                "deadline": "2024-12-31"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Jane",
+        "surname": "Doe",
+        "email": "jane.doe@exmple.com",
+        "projects": [
+            {
+                "id": 44,
+                "name": "Project 2",
+                "description": "This is the second project",
+                "tasks": [
+                    {
+                        "id": 48,
+                        "name": "Task 2",
+                        "description": "This is the second task",
+                        "priority": 2,
+                        "status": 1,
+                        "_type": "QATask",
+                        "test_type": "Smoke testing"
+                    }
+                ],
+                "deadline": "2024-11-30"
+            },
+            {
+                "id": 46,
+                "name": "Project 4",
+                "description": "This is the fourth project",
+                "tasks": [
+                    {
+                        "id": 50,
+                        "name": "Task 4",
+                        "description": "This is the fourth task",
+                        "priority": 3,
+                        "status": 1,
+                        "_type": "DevTask",
+                        "language": "Java"
+                    }
+                ],
+                "deadline": "2025-01-31"
+            }
+        ]
+    }
+]

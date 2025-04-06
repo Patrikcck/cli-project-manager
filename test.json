@@ -1,0 +1,42 @@
+[
+    {
+        "id": 41,
+        "name": "John",
+        "surname": "Doe",
+        "email": "john.doe@example.com",
+        "projects": [
+            {
+                "id": 43,
+                "name": "Project 1",
+                "description": "This is the first project",
+                "tasks": [
+                    {
+                        "id": 47,
+                        "name": "Task 1",
+                        "description": "This is the first task",
+                        "priority": 2,
+                        "status": 1,
+                        "_type": "DevTask",
+                        "language": "Python"
+                    }
+                ],
+                "deadline": "2024-12-31"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "wwef",
+        "surname": "wef",
+        "email": "wef",
+        "projects": [
+            {
+                "id": 52,
+                "name": "rstrhytfu",
+                "description": "aerstrdytfu",
+                "tasks": [],
+                "deadline": "2003-02-22"
+            }
+        ]
+    }
+]
